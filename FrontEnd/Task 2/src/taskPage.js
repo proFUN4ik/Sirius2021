@@ -245,8 +245,6 @@ const TaskStyles = createUseStyles({
         'justify-content': 'space-evenly',
         'flex-wrap': 'wrap',
 
-        'max-width': 1065,
-
         margin: {
             right: 0,
             bottom: 50,
