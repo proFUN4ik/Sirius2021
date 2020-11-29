@@ -94,11 +94,10 @@ const TaskBlockStyles = createUseStyles({
         'justify-content': 'space-between',
 
         margin: {
-            right: 30,
             bottom: 30,
         },
 
-        width: 305,
+        width: 285,
 
         padding: 10,
 
@@ -161,18 +160,18 @@ const TaskBlock = (props) => {
 
 const AddTaskStyles = createUseStyles({
     btn: {
-        width: 325,
-       height: 150,
-
-       margin: {
-           right: 30,
-       },
+        width: 305,
+        'min-height': 150,
 
        font: 'inherit',
         'text-align': 'center',
 
         border: 'none',
         'border-radius': 9,
+
+        margin: {
+            bottom: 30,
+        },
 
         background: '#F7F7F7',
     },
@@ -194,6 +193,7 @@ const AddTaskStyles = createUseStyles({
     },
     [`@media (max-width: ${deviceWidth.phone}px)`]: {
         btn: {
+            'min-height': 51,
             height: 51,
             width: 51,
 
@@ -248,7 +248,7 @@ const TaskStyles = createUseStyles({
         'max-width': 1065,
 
         margin: {
-            right: -30,
+            right: 0,
             bottom: 50,
         },
     },
